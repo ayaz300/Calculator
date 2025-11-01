@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+
+    <input placeholder="0" type="text" id="display">
+    <br>
+    <button id="op" onclick="clearall()">AC</button>
+    <button id="op" onclick="backspacce()">DEL</button>
+    <button id="op" onclick="par()">%</button>
+    <button id="op" onclick="val('/')">÷</button>
+    <br>
+    <button onclick="val('7')">7</button>
+    <button onclick="val('8')">8</button>
+    <button onclick="val('9')">9</button>
+    <button id="op" onclick="val('*')">x</button>
+    <br>
+    <button onclick="val('4')">4</button>
+    <button onclick="val('5')">5</button>
+    <button onclick="val('6')">6</button>
+    <button id="op" onclick="val('-')">-</button>
+    <br>
+    <button onclick="val('1')">1</button>
+    <button onclick="val('2')">2</button>
+    <button onclick="val('3')">3</button>
+    <button id="op" onclick="val('+')">+</button>
+    <br>
+    <button onclick="val('0')">0</button>
+    <button onclick="val('00')">00</button>
+    <button onclick="val('.')">.</button>
+    <button id="op" onclick="result()">=</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
