@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1e1e24;
+}
+
+.container {
+    background: #23242a;
+    padding: 25px;
+    border-radius: 20px;
+    width: 340px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Forces the input field onto line 1 across the full width */
+#display {
+    display: block;
+    width: 100%;
+    height: 75px;
+    background-color: #14141a;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    color: #ffffff;
+    font-size: 2.2rem;
+    text-align: right;
+    padding: 15px;
+    margin-bottom: 25px; /* Creates separation before the buttons start */
+}
+
+/* Forces exactly 4 buttons per line downstream */
+.button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+button {
+    height: 60px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #2e3039;
+    color: #ffffff;
+    transition: all 0.15s ease;
+}
+
+button:hover {
+    filter: brightness(1.2);
+}
+
+button:active {
+    transform: scale(0.96);
+}
+
+/* Color schemes matching your layout image */
+.operator, .equal {
+    background-color: #ff9f0a;
+    color: #ffffff;
+}
+
+.clearAll, .backspace {
+    background-color: #a5a5a5;
+    color: #000000;
+}
