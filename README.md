@@ -55,7 +55,7 @@ No additional installation or dependencies are required.
 Example:
 
 ```
-images/calculator.png
+calculator.png
 ```
 
 Then display it with:
