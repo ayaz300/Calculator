@@ -53,18 +53,6 @@ No additional installation or dependencies are required.
 
 https://github.com/ayaz300/Calculator/blob/main/calculator.png
 
-Example:
-
-```
-https://github.com/ayaz300/Calculator/blob/main/calculator.png
-```
-
-Then display it with:
-
-```markdown
-calculator.png
-```
-
 ## 🎯 Future Improvements
 
 - Keyboard input support
