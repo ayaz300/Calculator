@@ -1,3 +1,4 @@
+<img width="1279" height="719" alt="calculator" src="https://github.com/user-attachments/assets/a4212aac-d93b-4e04-8a2a-ed32ea5c3881" />
 # 🧮 Calculator
 
 A simple and responsive calculator built using **HTML**, **CSS**, and **JavaScript**. It performs basic arithmetic operations with a clean and modern user interface.
@@ -50,7 +51,7 @@ No additional installation or dependencies are required.
 
 ## 📸 Screenshot
 
-> Add a screenshot of your calculator here.
+https://github.com/ayaz300/Calculator/blob/main/calculator.png
 
 Example:
 
@@ -61,7 +62,7 @@ https://github.com/ayaz300/Calculator/blob/main/calculator.png
 Then display it with:
 
 ```markdown
-![Calculator Screenshot](images/calculator.png)
+calculator.png
 ```
 
 ## 🎯 Future Improvements
@@ -76,12 +77,8 @@ Then display it with:
 
 Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request.
 
-## 📄 License
-
-This project is open source and available under the **MIT License**.
-
 ## 👨‍💻 Author
 
 **Your Name**
 
-GitHub: https://github.com/your-username
+GitHub: https://github.com/ayaz300/
