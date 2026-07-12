@@ -55,7 +55,7 @@ No additional installation or dependencies are required.
 Example:
 
 ```
-calculator.png
+https://github.com/ayaz300/Calculator/blob/main/calculator.png
 ```
 
 Then display it with:
