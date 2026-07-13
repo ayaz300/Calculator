@@ -1,27 +1,27 @@
-let dispaly = document.getElementById('display');
+let display = document.getElementById('display');
 
 function appendValue(value) {
-    dispaly.value += value;
+    display.value += value;
 }
 
 
 function backspace() {
-    dispaly.value = dispaly.value.slice(0, -1);
+    display.value = display.value.slice(0, -1);
 }
 
 function clearDisplay() {
-    dispaly.value = '';
+    display.value = '';
 }
 
 function percent() {
-    dispaly.value = parseFloat(dispaly.value) / 100;
+    display.value = parseFloat(display.value) / 100;
 }
 
 function calculateResult() {
     try {
-        dispaly.value = eval(dispaly.value);
+        dispaly.value = eval(display.value);
     } catch {
-        dispaly.value = "Error"
+        display.value = "Error"
     }
     
 }
