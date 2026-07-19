@@ -19,7 +19,7 @@ function percent() {
 
 function calculateResult() {
     try {
-        dispaly.value = eval(display.value);
+        display.value = eval(display.value);
     } catch {
         display.value = "Error"
     }
