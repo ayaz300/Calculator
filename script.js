@@ -1,6 +1,10 @@
 let display = document.getElementById('display');
 
 function appendValue(value) {
+    if (display.value === "Error") {
+        display.value = "";
+    }
+
     display.value += value;
 }
 
@@ -14,12 +18,20 @@ function clearDisplay() {
 }
 
 function percent() {
-    display.value = parseFloat(display.value) / 100;
+    try {
+        let DV = display.value
+        display.value = eval(DV) / 100;
+    } catch {
+        display.value = "Error";
+    }
 }
 
 function calculateResult() {
     try {
-        display.value = eval(display.value);
+        let DV = display.value
+        .replace(/×/g, "*")
+        .replace(/÷/g, "/");
+        display.value = eval(DV);
     } catch {
         display.value = "Error"
     }
