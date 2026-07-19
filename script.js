@@ -20,6 +20,8 @@ function clearDisplay() {
 function percent() {
     try {
         let DV = display.value
+        .replace(/×/g, "*")
+        .replace(/÷/g, "/");
         display.value = eval(DV) / 100;
     } catch {
         display.value = "Error";
